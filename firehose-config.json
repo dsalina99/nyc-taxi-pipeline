@@ -1,0 +1,10 @@
+{
+  "BucketARN": "arn:aws:s3:::nyc-taxi-de-dsalina",
+  "Prefix": "raw/year=!{timestamp:yyyy}/month=!{timestamp:MM}/",
+  "ErrorOutputPrefix": "raw-errors/!{firehose:error-output-type}/year=!{timestamp:yyyy}/month=!{timestamp:MM}/",
+  "BufferingHints": {
+    "SizeInMBs": 5,
+    "IntervalInSeconds": 60
+  },
+  "RoleARN": "arn:aws:iam::263649228725:role/FirehoseDeliveryRole"
+}
