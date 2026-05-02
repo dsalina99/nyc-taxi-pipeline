@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: nyc_taxi_db
+    database: awsdatacatalog
+    schema: nyc_taxi_db
+    tables:
+      - name: trips

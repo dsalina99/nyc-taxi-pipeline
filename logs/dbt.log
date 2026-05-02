@@ -1,0 +1,268 @@
+[0m17:40:36.344040 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DC4C44670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DC5BABEB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DC5BABCA0>]}
+
+
+============================== 17:40:36.375898 | 2e3e4729-83e0-4849-9e7b-28a10fb7ac1d ==============================
+[0m17:40:36.375898 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:40:36.377882 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\15855\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt init taxi_transforms', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:40:36.854457 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\15855\.dbt
+[0m17:40:36.885953 [debug] [MainThread]: Starter project path: C:\Users\15855\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\dbt\include\starter_project
+[0m17:40:37.062364 [info ] [MainThread]: 
+Your new dbt project "taxi_transforms" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:40:37.067323 [info ] [MainThread]: Setting up your profile.
+[0m17:46:38.337313 [info ] [MainThread]: Profile taxi_transforms written to C:\Users\15855\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:46:38.341387 [debug] [MainThread]: Command `dbt init` succeeded at 17:46:38.341387 after 362.31 seconds
+[0m17:46:38.343312 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DC4C44670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DC5BAB4C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DC5BAA9E0>]}
+[0m17:46:38.345314 [debug] [MainThread]: Flushing usage events
+[0m17:46:39.003906 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:46:48.219699 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B1897946D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B18B7ABEE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B18B7ABC70>]}
+
+
+============================== 17:46:48.227732 | d1a910ae-259a-49cf-963b-ff5de6c43dd6 ==============================
+[0m17:46:48.227732 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:46:48.228701 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\15855\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:46:48.271718 [info ] [MainThread]: dbt version: 1.11.8
+[0m17:46:48.272718 [info ] [MainThread]: python version: 3.10.11
+[0m17:46:48.274824 [info ] [MainThread]: python path: C:\Users\15855\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe
+[0m17:46:48.275826 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m17:46:48.780707 [info ] [MainThread]: Using profiles dir at C:\Users\15855\.dbt
+[0m17:46:48.781709 [info ] [MainThread]: Using profiles.yml file at C:\Users\15855\.dbt\profiles.yml
+[0m17:46:48.782707 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\15855\Documents\DE_TAXI_PROJECT\dbt_project.yml
+[0m17:46:48.802245 [info ] [MainThread]: adapter type: athena
+[0m17:46:48.804244 [info ] [MainThread]: adapter version: 1.10.0
+[0m17:46:48.805245 [info ] [MainThread]: Configuration:
+[0m17:46:48.806238 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:46:48.807239 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:46:48.807239 [info ] [MainThread]: Required dependencies:
+[0m17:46:48.812241 [debug] [MainThread]: Executing "git --help"
+[0m17:46:48.889761 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:46:48.890779 [debug] [MainThread]: STDERR: "b''"
+[0m17:46:48.891764 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:46:48.892759 [info ] [MainThread]: Connection:
+[0m17:46:48.893757 [info ] [MainThread]:   s3_staging_dir: s3://nyc-taxi-de-dsalina/athena_query_results/
+[0m17:46:48.894756 [info ] [MainThread]:   work_group: None
+[0m17:46:48.895756 [info ] [MainThread]:   skip_workgroup_check: False
+[0m17:46:48.896763 [info ] [MainThread]:   region_name: us-east-1
+[0m17:46:48.897760 [info ] [MainThread]:   database: taxi_db_dbt database
+[0m17:46:48.897760 [info ] [MainThread]:   schema: taxi_db_dbt database: awsdatacatalog work_group: primary
+[0m17:46:48.899157 [info ] [MainThread]:   poll_interval: 1.0
+[0m17:46:48.899157 [info ] [MainThread]:   aws_profile_name: None
+[0m17:46:48.900159 [info ] [MainThread]:   aws_access_key_id: None
+[0m17:46:48.901160 [info ] [MainThread]:   endpoint_url: None
+[0m17:46:48.902158 [info ] [MainThread]:   s3_data_dir: s3://nyc-taxi-de-dsalina/athena_query_results/
+[0m17:46:48.902158 [info ] [MainThread]:   s3_data_naming: schema_table_unique
+[0m17:46:48.903157 [info ] [MainThread]:   s3_tmp_table_dir: None
+[0m17:46:48.904157 [info ] [MainThread]:   debug_query_state: False
+[0m17:46:48.904157 [info ] [MainThread]:   seed_s3_upload_args: None
+[0m17:46:48.905159 [info ] [MainThread]:   lf_tags_database: None
+[0m17:46:48.906159 [info ] [MainThread]:   spark_work_group: None
+[0m17:46:48.907160 [info ] [MainThread]: Registered adapter: athena=1.10.0
+[0m17:46:49.539524 [debug] [MainThread]: Acquiring new athena connection 'debug'
+[0m17:46:49.540519 [debug] [MainThread]: Using athena connection "debug"
+[0m17:46:49.541397 [debug] [MainThread]: On debug: select 1 as id
+[0m17:46:49.541397 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:46:51.347011 [debug] [MainThread]: dbt.adapters.athena.constants adapter: Athena query ID 4e5c6a45-e2d6-4ba9-8e5c-7f4ecafc4d45
+[0m17:46:53.067909 [debug] [MainThread]: SQL status: OK -1 in 3.526 seconds
+[0m17:46:53.070911 [debug] [MainThread]: On debug: Close
+[0m17:46:53.071906 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m17:46:53.073769 [info ] [MainThread]: [31m1 check failed:[0m
+[0m17:46:53.074929 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\15855\Documents\DE_TAXI_PROJECT\dbt_project.yml> not found
+
+[0m17:46:53.079645 [debug] [MainThread]: Command `dbt debug` failed at 17:46:53.078632 after 4.99 seconds
+[0m17:46:53.080502 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:46:53.083638 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B1897946D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B18D8A1BA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B18D8A1D50>]}
+[0m17:46:53.084636 [debug] [MainThread]: Flushing usage events
+[0m17:46:53.394881 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:49:44.673645 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C716E44730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C717DABF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C717DABD30>]}
+
+
+============================== 17:49:44.683534 | ae4fb264-7f7f-473f-8679-2c444308026d ==============================
+[0m17:49:44.683534 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:49:44.684533 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\15855\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\15855\\Documents\\DE_TAXI_PROJECT\\logs'}
+[0m17:49:44.736907 [info ] [MainThread]: dbt version: 1.11.8
+[0m17:49:44.737907 [info ] [MainThread]: python version: 3.10.11
+[0m17:49:44.739908 [info ] [MainThread]: python path: C:\Users\15855\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe
+[0m17:49:44.740907 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m17:49:45.732372 [info ] [MainThread]: Using profiles dir at C:\Users\15855\.dbt
+[0m17:49:45.733565 [info ] [MainThread]: Using profiles.yml file at C:\Users\15855\.dbt\profiles.yml
+[0m17:49:45.734105 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\15855\Documents\DE_TAXI_PROJECT\dbt_project.yml
+[0m17:49:45.735930 [info ] [MainThread]: adapter type: athena
+[0m17:49:45.737141 [info ] [MainThread]: adapter version: 1.10.0
+[0m17:49:45.892694 [info ] [MainThread]: Configuration:
+[0m17:49:45.894687 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:49:45.895700 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m17:49:45.897113 [info ] [MainThread]: Required dependencies:
+[0m17:49:45.898130 [debug] [MainThread]: Executing "git --help"
+[0m17:49:45.968618 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:49:45.969618 [debug] [MainThread]: STDERR: "b''"
+[0m17:49:45.969618 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:49:45.971623 [info ] [MainThread]: Connection:
+[0m17:49:45.972621 [info ] [MainThread]:   s3_staging_dir: s3://nyc-taxi-de-dsalina/athena_query_results/
+[0m17:49:45.973622 [info ] [MainThread]:   work_group: None
+[0m17:49:45.974621 [info ] [MainThread]:   skip_workgroup_check: False
+[0m17:49:45.975631 [info ] [MainThread]:   region_name: us-east-1
+[0m17:49:45.976627 [info ] [MainThread]:   database: taxi_db_dbt database
+[0m17:49:45.977619 [info ] [MainThread]:   schema: taxi_db_dbt database: awsdatacatalog work_group: primary
+[0m17:49:45.978661 [info ] [MainThread]:   poll_interval: 1.0
+[0m17:49:45.980647 [info ] [MainThread]:   aws_profile_name: None
+[0m17:49:45.981648 [info ] [MainThread]:   aws_access_key_id: None
+[0m17:49:45.982618 [info ] [MainThread]:   endpoint_url: None
+[0m17:49:45.983620 [info ] [MainThread]:   s3_data_dir: s3://nyc-taxi-de-dsalina/athena_query_results/
+[0m17:49:45.985618 [info ] [MainThread]:   s3_data_naming: schema_table_unique
+[0m17:49:45.986617 [info ] [MainThread]:   s3_tmp_table_dir: None
+[0m17:49:45.987647 [info ] [MainThread]:   debug_query_state: False
+[0m17:49:45.988617 [info ] [MainThread]:   seed_s3_upload_args: None
+[0m17:49:45.991136 [info ] [MainThread]:   lf_tags_database: None
+[0m17:49:45.992151 [info ] [MainThread]:   spark_work_group: None
+[0m17:49:45.994152 [info ] [MainThread]: Registered adapter: athena=1.10.0
+[0m17:49:46.362053 [debug] [MainThread]: Acquiring new athena connection 'debug'
+[0m17:49:46.363056 [debug] [MainThread]: Using athena connection "debug"
+[0m17:49:46.363056 [debug] [MainThread]: On debug: select 1 as id
+[0m17:49:46.364058 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:49:47.836949 [debug] [MainThread]: dbt.adapters.athena.constants adapter: Athena query ID 93bb5116-e17a-44ff-a1ac-82e90dba0530
+[0m17:49:49.458689 [debug] [MainThread]: SQL status: OK -1 in 3.094 seconds
+[0m17:49:49.463684 [debug] [MainThread]: On debug: Close
+[0m17:49:49.466754 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m17:49:49.468748 [info ] [MainThread]: [32mAll checks passed![0m
+[0m17:49:49.480688 [debug] [MainThread]: Command `dbt debug` succeeded at 17:49:49.478694 after 4.94 seconds
+[0m17:49:49.482690 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:49:49.488887 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C716E44730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C7193917E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C71761D2D0>]}
+[0m17:49:49.490747 [debug] [MainThread]: Flushing usage events
+[0m17:49:49.907687 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:55:19.864512 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026681944610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002668385E110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266838A3BE0>]}
+
+
+============================== 17:55:19.871473 | e9b35e27-6468-4edb-8a94-0d96b6eabe61 ==============================
+[0m17:55:19.871473 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:55:19.872476 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\15855\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\15855\\Documents\\DE_TAXI_PROJECT\\logs'}
+[0m17:55:21.059720 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e9b35e27-6468-4edb-8a94-0d96b6eabe61', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002667F4CC9D0>]}
+[0m17:55:21.165943 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e9b35e27-6468-4edb-8a94-0d96b6eabe61', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266848AFF10>]}
+[0m17:55:21.167931 [info ] [MainThread]: Registered adapter: athena=1.10.0
+[0m17:55:21.652422 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m17:55:21.654433 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m17:55:21.655433 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'e9b35e27-6468-4edb-8a94-0d96b6eabe61', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026684B5B1F0>]}
+[0m17:55:26.277741 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.taxi_transforms.example
+[0m17:55:26.288049 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e9b35e27-6468-4edb-8a94-0d96b6eabe61', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026684F63370>]}
+[0m17:55:26.368671 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\15855\Documents\DE_TAXI_PROJECT\target\manifest.json
+[0m17:55:26.419865 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\15855\Documents\DE_TAXI_PROJECT\target\semantic_manifest.json
+[0m17:55:26.521886 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e9b35e27-6468-4edb-8a94-0d96b6eabe61', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026684F5B2E0>]}
+[0m17:55:26.521886 [info ] [MainThread]: Found 491 macros
+[0m17:55:26.524512 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e9b35e27-6468-4edb-8a94-0d96b6eabe61', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026684F5A1A0>]}
+[0m17:55:26.527624 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m17:55:26.529640 [debug] [MainThread]: Command end result
+[0m17:55:26.575687 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\15855\Documents\DE_TAXI_PROJECT\target\manifest.json
+[0m17:55:26.579688 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\15855\Documents\DE_TAXI_PROJECT\target\semantic_manifest.json
+[0m17:55:26.586686 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\15855\Documents\DE_TAXI_PROJECT\target\run_results.json
+[0m17:55:26.588688 [debug] [MainThread]: Command `dbt run` succeeded at 17:55:26.588688 after 6.86 seconds
+[0m17:55:26.589687 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002667F4CC9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002668311BD00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266849E8670>]}
+[0m17:55:26.590686 [debug] [MainThread]: Flushing usage events
+[0m17:55:27.050948 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:56:37.927987 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A77D44640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A78C9CF40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A78C9D630>]}
+
+
+============================== 17:56:37.940991 | 0130730d-711e-46c9-83ac-382259eddb65 ==============================
+[0m17:56:37.940991 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:56:37.943709 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\15855\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt test', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\15855\\Documents\\DE_TAXI_PROJECT\\logs'}
+[0m17:56:40.260408 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0130730d-711e-46c9-83ac-382259eddb65', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A7ADA2A70>]}
+[0m17:56:40.479352 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0130730d-711e-46c9-83ac-382259eddb65', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A78CC4070>]}
+[0m17:56:40.484368 [info ] [MainThread]: Registered adapter: athena=1.10.0
+[0m17:56:42.065652 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m17:56:42.644118 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:56:42.646591 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m17:56:42.647714 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:56:42.649730 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.taxi_transforms.example
+[0m17:56:42.664314 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0130730d-711e-46c9-83ac-382259eddb65', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A7B4215D0>]}
+[0m17:56:42.889640 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\15855\Documents\DE_TAXI_PROJECT\target\manifest.json
+[0m17:56:42.901596 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\15855\Documents\DE_TAXI_PROJECT\target\semantic_manifest.json
+[0m17:56:43.064750 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0130730d-711e-46c9-83ac-382259eddb65', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A7B422710>]}
+[0m17:56:43.068748 [info ] [MainThread]: Found 491 macros
+[0m17:56:43.072758 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0130730d-711e-46c9-83ac-382259eddb65', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A7B3FF5B0>]}
+[0m17:56:43.078754 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m17:56:43.089754 [debug] [MainThread]: Command end result
+[0m17:56:43.297173 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\15855\Documents\DE_TAXI_PROJECT\target\manifest.json
+[0m17:56:43.306193 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\15855\Documents\DE_TAXI_PROJECT\target\semantic_manifest.json
+[0m17:56:43.318162 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\15855\Documents\DE_TAXI_PROJECT\target\run_results.json
+[0m17:56:43.322303 [debug] [MainThread]: Command `dbt test` succeeded at 17:56:43.322303 after 5.77 seconds
+[0m17:56:43.324303 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A77D44640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A7487F550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A7A237E20>]}
+[0m17:56:43.326311 [debug] [MainThread]: Flushing usage events
+[0m17:56:43.763980 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:04:37.880514 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029033F44700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029034EABF40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029034EABD60>]}
+
+
+============================== 18:04:37.887824 | 94b1f4c7-e6ad-47ca-a3f4-a25145b25cd4 ==============================
+[0m18:04:37.887824 [info ] [MainThread]: Running with dbt=1.11.8
+[0m18:04:37.888772 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\15855\\.dbt', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\15855\\Documents\\DE_TAXI_PROJECT\\logs'}
+[0m18:04:37.913088 [info ] [MainThread]: dbt version: 1.11.8
+[0m18:04:37.914224 [info ] [MainThread]: python version: 3.10.11
+[0m18:04:37.915747 [info ] [MainThread]: python path: C:\Users\15855\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe
+[0m18:04:37.916760 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m18:04:38.555568 [info ] [MainThread]: Using profiles dir at C:\Users\15855\.dbt
+[0m18:04:38.569565 [info ] [MainThread]: Using profiles.yml file at C:\Users\15855\.dbt\profiles.yml
+[0m18:04:38.585563 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\15855\Documents\DE_TAXI_PROJECT\dbt_project.yml
+[0m18:04:38.592565 [info ] [MainThread]: adapter type: athena
+[0m18:04:38.597035 [info ] [MainThread]: adapter version: 1.10.0
+[0m18:04:38.769240 [info ] [MainThread]: Configuration:
+[0m18:04:38.771240 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:04:38.773239 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m18:04:38.774242 [info ] [MainThread]: Required dependencies:
+[0m18:04:38.776243 [debug] [MainThread]: Executing "git --help"
+[0m18:04:38.868213 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:04:38.869216 [debug] [MainThread]: STDERR: "b''"
+[0m18:04:38.870219 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:04:38.872218 [info ] [MainThread]: Connection:
+[0m18:04:38.873220 [info ] [MainThread]:   s3_staging_dir: s3://nyc-taxi-de-dsalina/athena-results/
+[0m18:04:38.876245 [info ] [MainThread]:   work_group: primary
+[0m18:04:38.879221 [info ] [MainThread]:   skip_workgroup_check: False
+[0m18:04:38.881215 [info ] [MainThread]:   region_name: us-east-1
+[0m18:04:38.882220 [info ] [MainThread]:   database: awsdatacatalog
+[0m18:04:38.884214 [info ] [MainThread]:   schema: taxi_dbt
+[0m18:04:38.886222 [info ] [MainThread]:   poll_interval: 1.0
+[0m18:04:38.888226 [info ] [MainThread]:   aws_profile_name: None
+[0m18:04:38.890217 [info ] [MainThread]:   aws_access_key_id: None
+[0m18:04:38.892214 [info ] [MainThread]:   endpoint_url: None
+[0m18:04:38.896216 [info ] [MainThread]:   s3_data_dir: None
+[0m18:04:38.898221 [info ] [MainThread]:   s3_data_naming: schema_table_unique
+[0m18:04:38.900217 [info ] [MainThread]:   s3_tmp_table_dir: None
+[0m18:04:38.902223 [info ] [MainThread]:   debug_query_state: False
+[0m18:04:38.904215 [info ] [MainThread]:   seed_s3_upload_args: None
+[0m18:04:38.905217 [info ] [MainThread]:   lf_tags_database: None
+[0m18:04:38.907216 [info ] [MainThread]:   spark_work_group: None
+[0m18:04:38.910225 [info ] [MainThread]: Registered adapter: athena=1.10.0
+[0m18:04:39.321811 [debug] [MainThread]: Acquiring new athena connection 'debug'
+[0m18:04:39.322812 [debug] [MainThread]: Using athena connection "debug"
+[0m18:04:39.322812 [debug] [MainThread]: On debug: select 1 as id
+[0m18:04:39.323843 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:04:40.069949 [debug] [MainThread]: dbt.adapters.athena.constants adapter: Athena query ID 9e2d8999-8c2d-4cce-b02b-0febc97e7f2c
+[0m18:04:41.682368 [debug] [MainThread]: SQL status: OK -1 in 2.359 seconds
+[0m18:04:41.686350 [debug] [MainThread]: On debug: Close
+[0m18:04:41.687353 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m18:04:41.690303 [info ] [MainThread]: [32mAll checks passed![0m
+[0m18:04:41.697362 [debug] [MainThread]: Command `dbt debug` succeeded at 18:04:41.697362 after 3.97 seconds
+[0m18:04:41.698443 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:04:41.701352 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029033F44700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029030E040A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029036FD44F0>]}
+[0m18:04:41.702316 [debug] [MainThread]: Flushing usage events
+[0m18:04:42.129904 [debug] [MainThread]: An error was encountered while trying to flush usage events
