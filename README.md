@@ -65,9 +65,9 @@ DE_TAXI_PROJECT/
 │           ├── mart_top_zones.sql      # Top pickup zones by volume
 │           └── payment_summary.sql     # Payment type breakdown
 ├── infra/
+│   ├── firehose-config.json       # Kinesis Firehose S3 delivery config
 │   ├── trust-policy.json          # IAM trust policy for FirehoseDeliveryRole
 │   └── permission-policy.json     # IAM permission policy (S3 + CloudWatch Logs)
-├── firehose-config.json           # Kinesis Firehose S3 delivery config
 └── .gitignore
 ```
 
@@ -94,7 +94,7 @@ python src/producer/producer.py
 
 ---
 
-### 2. Kinesis Firehose (`firehose-config.json`)
+### 2. Kinesis Firehose (`infra/firehose-config.json`)
 
 Buffers records from the Kinesis stream and delivers them to S3.
 
@@ -201,7 +201,7 @@ AWS services required: Kinesis Data Streams, Kinesis Firehose, S3, Glue (Crawler
    aws kinesis create-stream --stream-name nyc-taxi-stream --shard-count 2 --region us-east-1
    ```
 
-3. **Create the Firehose delivery stream** using `firehose-config.json` as the S3 destination config.
+3. **Create the Firehose delivery stream** using `infra/firehose-config.json` as the S3 destination config.
 
 4. **Create the IAM role** `FirehoseDeliveryRole` using `infra/trust-policy.json` and attach `infra/permission-policy.json`.
 
