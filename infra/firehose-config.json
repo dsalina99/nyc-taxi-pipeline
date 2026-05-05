@@ -6,5 +6,5 @@
     "SizeInMBs": 5,
     "IntervalInSeconds": 60
   },
-  "RoleARN": "arn:aws:iam::263649228725:role/FirehoseDeliveryRole"
+  "RoleARN": "arn:aws:iam::<YOUR_ACCOUNT_ID>:role/FirehoseDeliveryRole"
 }
